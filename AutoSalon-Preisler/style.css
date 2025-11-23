@@ -8,6 +8,7 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
+    z-index: 1000;
 }
 .Title{
     font-size: 30px;
@@ -35,10 +36,109 @@
     display: block;
     color: #EFF1F3 ;
     text-decoration: none;
-    
 }
 .Login-linko{
     font-size: 15px;
     color: #EFF1F3 ;
+}
+.telo{
+    padding-top: 97px;
+    height: auto;
+    margin: 0px;
+}
 
+.mainpic{
+    width: 100%;
+    height: auto;
+}
+.uvodik{
+    position: relative;
+}
+.uvodtext{
+    position: absolute;       
+    top: 35%;                
+    left: 50%;                
+    transform: translate(-50%, -50%); 
+    color: rgb(255, 255, 255);             
+    font-size: 77px;          
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 12px 12px 14px rgba(0, 0, 0, 0.7); 
+    text-decoration: double;
+    -webkit-text-stroke: 0.3px black;
+}
+.info{
+    text-align: center;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #012A38 ;
+    font-weight: bold;
+}
+.infa{
+    text-align: center;
+    margin-top: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #012A38 ;
+    font-weight: normal;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.uvodbut{
+    position: absolute;
+    top: 50%;                
+    left: 50%;          
+    transform: translate(-50%, -50%);       
+    font-size: 35px;
+    background-color: #012A38 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 450px;
+    height: 60px;
+}.uvodbut:hover{
+    background-color: #02475e ;
+}
+.jazz {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    display: block;
+}
+.Paragrafa{
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+.po{
+    margin: 50px;
+
+}
+
+.footer{
+    color: whitesmoke;
+    background-color: #3a3d3f;
+    height: 100px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.footext{
+    padding-top: 21px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}.copyright{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: italic;
 }

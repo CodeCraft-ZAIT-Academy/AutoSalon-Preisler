@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoSalon-Preisler</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="reg.css">
     <link rel="icon" sizes="2x4" type="image/png" href="znak.png">
 </head>
 
 <body class="telo">
     <div class="header">
         <div class="headercontent">
-            <div class="png"> 
+             <div class="png"> 
                 <a href="index.html">
                     <img class="png" alt="LogoSalon" src="LogoSalon.png" >
                 </a>
@@ -30,12 +30,14 @@
 
     <div class="login-form">
         <div class="Login-chart">
-            <p class="Name">Prihlasit sa do AutoSalona</p>
+           <p class="Name">Zaregistrovat sa do AutoSalona</p>
             <input class="Holder" placeholder="Prihlasovacie meno">
             <input type="password" class="Holder" placeholder="Heslo">
-            <button class="Holder"><a class="jazz" href="index.html">Prihlasit sa</a></button>
-            <a class="Odkaz" href="reg.html">Nemas ucet klikni pre registraciu</a>
+            <input type="password" class="Holder" placeholder="Znova Heslo">
+            <input class="Holder" type="text" placeholder="DD.MM.RRRR" onfocus="this.type='date'" onblur="if(!this.value)this.type='text'">
+            <button class="Holder"><a class="jazz" href="index.html">Zaregistrovat sa</a></button>
         </div>
     </div>
+
 </body>
 </html>
