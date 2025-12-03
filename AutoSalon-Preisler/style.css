@@ -98,6 +98,7 @@
     cursor: pointer;
     width: 450px;
     height: 60px;
+    border-radius: 15px;
 }.uvodbut:hover{
     background-color: #02475e ;
 }
@@ -141,4 +142,29 @@
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
+}
+.NasaAuta {
+    width: 60%;
+    table-layout: fixed;
+    caption-side: bottom;
+    font-size: 20px;
+    margin: 0 auto; 
+     border-collapse: collapse;
+}
+.NasaAuta td, 
+.NasaAuta th {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+.NasaPonuka{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #012A38 ;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+
 }
