@@ -34,6 +34,7 @@
 .Login-link {
     color: #EFF1F3;
     font-size: 23px;
+    text-decoration: none;
 }
 
 .Title-o {
@@ -66,7 +67,7 @@
 
 .uvodtext {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
@@ -76,6 +77,7 @@
     text-shadow: 12px 12px 14px rgba(0, 0, 0, 0.7);
     text-decoration: double;
     -webkit-text-stroke: 0.3px black;
+    margin: 0px;
 }
 
 .info {
@@ -203,4 +205,19 @@
 .logoauto-b {
     height: 100px;
     width: 100px;
+}
+.Znacka{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+th{
+    font-size: 37px;
+}
+.ciara{
+    background-color: black;
+    height: 1px;
+}
+.modely{
+    font-size: 23px;
 }
