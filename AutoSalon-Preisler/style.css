@@ -1,8 +1,8 @@
-.header{
+.header {
     background-color: #012A38;
     position: fixed;
     top: 0px;
-    left:0px;
+    left: 0px;
     right: 0px;
     height: 100px;
     padding-bottom: 5px;
@@ -10,88 +10,101 @@
     padding-right: 25px;
     z-index: 1000;
 }
-.Title{
+
+.Title {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #EFF1F3;
     text-align: center;
 }
-.headercontent{
+
+.headercontent {
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
 }
-.png{
+
+.png {
     width: 150px;
     height: 150px;
 }
-.Login-link{
-    color: #EFF1F3 ;
+
+.Login-link {
+    color: #EFF1F3;
     font-size: 23px;
 }
-.Title-o{
+
+.Title-o {
     margin: 0px;
     display: block;
-    color: #EFF1F3 ;
+    color: #EFF1F3;
     text-decoration: none;
 }
-.Login-linko{
-    font-size: 15px;
-    color: #EFF1F3 ;
+
+.Login-linko {
+    font-size: 20px;
+    color: #EFF1F3;
+    text-decoration: none;
 }
-.telo{
+
+.telo {
     padding-top: 97px;
     height: auto;
     margin: 0px;
 }
 
-.mainpic{
+.mainpic {
     width: 100%;
     height: auto;
 }
-.uvodik{
+
+.uvodik {
     position: relative;
 }
-.uvodtext{
-    position: absolute;       
-    top: 35%;                
-    left: 50%;                
-    transform: translate(-50%, -50%); 
-    color: rgb(255, 255, 255);             
-    font-size: 77px;          
+
+.uvodtext {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 74px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 12px 12px 14px rgba(0, 0, 0, 0.7); 
+    text-shadow: 12px 12px 14px rgba(0, 0, 0, 0.7);
     text-decoration: double;
     -webkit-text-stroke: 0.3px black;
 }
-.info{
+
+.info {
     text-align: center;
     margin-top: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    color: #012A38 ;
+    color: #012A38;
     font-weight: bold;
 }
-.infa{
+
+.infa {
     text-align: center;
     margin-top: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: #012A38 ;
+    color: #012A38;
     font-weight: normal;
     margin-left: 25px;
     margin-right: 25px;
 }
-.uvodbut{
+
+.uvodbut {
     position: absolute;
-    top: 50%;                
-    left: 50%;          
-    transform: translate(-50%, -50%);       
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 35px;
-    background-color: #012A38 ;
+    background-color: #012A38;
     color: white;
     border: none;
     border-radius: 5px;
@@ -99,31 +112,36 @@
     width: 450px;
     height: 60px;
     border-radius: 15px;
-}.uvodbut:hover{
-    background-color: #02475e ;
 }
+
+.uvodbut:hover {
+    background-color: #02475e;
+}
+
 .jazz {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 35px;
     display: block;
 }
-.Paragrafa{
+
+.Paragrafa {
     width: 100%;
     height: auto;
     font-size: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
-    
+
 }
-.po{
+
+.po {
     margin: 50px;
 
 }
 
-.footer{
+.footer {
     color: whitesmoke;
     background-color: #3a3d3f;
     height: 100px;
@@ -133,38 +151,56 @@
     text-align: center;
     vertical-align: middle;
 }
-.footext{
+
+.footext {
     padding-top: 21px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
-}.copyright{
+}
+
+.copyright {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
 }
+
 .NasaAuta {
     width: 60%;
     table-layout: fixed;
     caption-side: bottom;
     font-size: 20px;
-    margin: 0 auto; 
-     border-collapse: collapse;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 25px;
 }
-.NasaAuta td, 
+
+.NasaAuta td,
 .NasaAuta th {
-    border: 1px solid black; 
-    padding: 10px; 
-    text-align: center; 
+    border: 0.2px solid black;
+    padding: 10px;
+    text-align: center;
     vertical-align: middle;
     border-collapse: collapse;
+    border-radius: 25px;
 }
-.NasaPonuka{
+
+.NasaPonuka {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #012A38 ;
+    color: #012A38;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 75px;
+    border-radius: 25px;
 
+}
+
+.logoauto {
+    height: auto;
+    width: 150px;
+}
+.logoauto-b {
+    height: 100px;
+    width: 100px;
 }
