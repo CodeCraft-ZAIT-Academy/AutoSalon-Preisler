@@ -88,9 +88,14 @@
     border: none;
     cursor: pointer;
     margin-top: 15px;
-    text-decoration: none;
+    
 }
 .jazz{
     text-decoration: none;
     color: black;
+}
+.Car_Name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
