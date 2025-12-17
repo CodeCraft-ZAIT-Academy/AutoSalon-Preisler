@@ -52,14 +52,14 @@
 .Car_grid {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 15px;
    
 }
 .Car_Prehlad {
     margin: 50px;
-    background-color: rgb(160, 160, 160);
+    
 }
 .Car_Prehlad{
     display: flex;
@@ -67,10 +67,13 @@
     align-items: center;
 }
 .Car_img{
-    padding-right: 50px ;
     height: 450px;
     width: 650px;
     object-fit: cover;
+    padding-left: 70px;
+    width: 100%;
+    
+    
    
 }
 .info{
@@ -78,6 +81,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 20px;
+    padding-right:20px ;
+    border: #012A38 2px solid;
+    height: 100%;
 
 }
 .Rezervovat_but{
@@ -88,6 +95,8 @@
     border: none;
     cursor: pointer;
     margin-top: 15px;
+    border: #012A38 2px solid;
+    border-radius: 25px;
     
 }
 .jazz{
