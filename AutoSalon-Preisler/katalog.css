@@ -44,3 +44,53 @@
     text-decoration: none;
 
 }
+.telo {
+    padding-top: 97px;
+    height: auto;
+    margin: 0px;
+}
+.Car_grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+   
+}
+.Car_Prehlad {
+    margin: 50px;
+    background-color: rgb(160, 160, 160);
+}
+.Car_Prehlad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Car_img{
+    padding-right: 50px ;
+    height: 450px;
+    width: 650px;
+    object-fit: cover;
+   
+}
+.info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Rezervovat_but{
+    background-color: #ffffff;
+    color: rgb(251, 251, 251);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.jazz{
+    text-decoration: none;
+    color: black;
+}
