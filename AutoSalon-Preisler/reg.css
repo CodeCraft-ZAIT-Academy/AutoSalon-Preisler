@@ -51,7 +51,7 @@
 }
 
 .Login-linko {
-    font-size: 20px;
+    font-size: 25px;
     color: #EFF1F3 ;
     text-decoration: none;
 }
@@ -118,4 +118,11 @@
     color: rgb(0, 0, 0);
     font-size: 18px;
     display: block;
+}
+.Odkazik {
+   text-decoration: none;
+    color: rgb(255, 176, 176);
+    font-size: 33px;
+    display: block;
+    margin-top: 10px;
 }
