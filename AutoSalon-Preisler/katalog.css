@@ -68,7 +68,6 @@
 }
 .Car_img{
     height: 450px;
-    width: 650px;
     object-fit: cover;
     width: 100%;
 }
@@ -103,4 +102,13 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+}
+.Filter{
+    width: 1fr;
+    background-color: #012A38;
+}
+.joj{
+    text-decoration: none;
+    color: black;
+    
 }

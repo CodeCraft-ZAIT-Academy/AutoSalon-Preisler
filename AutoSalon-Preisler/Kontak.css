@@ -43,3 +43,25 @@
     color: #EFF1F3 ;
     text-decoration: none;
 }
+.telo{
+    margin-top: 150px;
+}
+.Kontakt-chart{
+    font-size: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 750px;
+    height: 250px;
+    align-items: middle;
+
+}
+.Name{
+    font-size: 35px;
+    text-align: center;
+}
+.Odkazik{
+    text-align: center;
+}
+.meno,.Email{
+    font-size: 20px;
+}
