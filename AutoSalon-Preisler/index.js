@@ -1,14 +1,22 @@
-function rezervujAuto(nazov, cena, obrazok) {
-  const auto = {
-    nazov,
-    cena,
-    obrazok
-  };
+document.addEventListener("DOMContentLoaded", function () {
 
-  let rezervacie = JSON.parse(localStorage.getItem('rezervacie')) || [];
-  rezervacie.push(auto);
+    const popup = document.getElementById("popup");
 
-  localStorage.setItem('rezervacie', JSON.stringify(rezervacie));
+    function openPopup() {
+        popup.style.display = "flex";
+    }
 
-  window.location.href = "Mojerezervacie.html";
-}
+    function closePopup() {
+        popup.style.display = "none";
+    }
+
+    window.openPopup = openPopup;
+    window.closePopup = closePopup;
+
+    popup.addEventListener("click", function (e) {
+        if (e.target === popup) {
+            closePopup();
+        }
+    });
+
+});
