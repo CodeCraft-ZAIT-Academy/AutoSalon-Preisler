@@ -136,10 +136,11 @@
 .popup-content {
     background: white;
     padding: 20px;
-    width: 300px;
+    width: auto;
+    max-width: 450px;
     border-radius: 10px;
     position: relative;
-    animation: popupAnim 0.2s ease;
+    animation: popupAnim 0.5s ease;
 }
 
 @keyframes popupAnim {
@@ -170,4 +171,28 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transform: translateY(-5px);
     transition: all 0.3s ease;
+}
+.Infauto{
+    text-align: center;
+}
+.popup-image{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.popup-text{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+.popup-vykon, .popup-rychlost{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+.infoska{
+    font-size: 18px;
+    text-align: center;
+
 }
