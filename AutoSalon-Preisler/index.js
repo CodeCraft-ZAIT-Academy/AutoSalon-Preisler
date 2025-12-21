@@ -20,3 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+function openPopup(event) {
+    event.stopPropagation(); 
+    const popupId = event.currentTarget.dataset.popup; 
+    const popup = document.getElementById(popupId);
+    if (popup) popup.style.display = 'flex';
+}
+
+function closePopup(popupId) {
+    const popup = document.getElementById(popupId);
+    if (popup) popup.style.display = 'none';
+}

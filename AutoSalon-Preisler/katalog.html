@@ -7,11 +7,11 @@
     <title>AutoSalon-Preisler</title>
     <link rel="stylesheet" href="katalog.css">
     <link rel="functionsheet" href="index.js">
+     <link rel="icon" sizes="7x7" type="image/png" href="znak.png">
 </head>
 <script src="index.js">
 
 </script>
-
 
 <body class="telo">
     <div class="header">
@@ -30,10 +30,19 @@
         </div>
     </div>
 
-    <div class="filter">3</div>
+    <div class="filter">
+       <img alt ="BMW" src="bmw-2-logo-png-transparent.png" class="bmw">
+        <img alt ="BMW" src="Mercedes-Logo.svg.png" class="bmw">
+        <img alt ="BMW" src="Volkswagen_logo_2019.svg.png" class="bmw">
+        <img alt ="BMW" src="audi-1-logo-png-transparent.png" class="bmw">
+        <img alt ="BMW" src="Skoda_Wordmark_RGB_Emerald_Green_e2c8d407.png" class="bmw">
+
+
+
+    </div>
 
     <div class="Zdroj">
-        <a href="auto-detail.html" class="auto-card">
+        <a onclick="openPopup()" class="auto-card">
             <div class="Prehlasd">
                 <div>
                     <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
@@ -49,7 +58,7 @@
             </div>
         </a>
 
-        <a href="auto-detail.html" class="auto-card">
+        <a data-popup="popup1" onclick="openPopup()" class="auto-card">
             <div class="Prehlasd">
                 <div>
                     <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
@@ -69,6 +78,54 @@
             <div class="Prehlasd">
                 <div>
                     <img class="nahladak" src="bISoRVSjTS_fss.webp" alt="Auto">
+                </div>
+
+                <div class="videoinfo">
+                    <p class="Nazov">BMW M4 Competition</p>
+                    <p class="Tvorca">Výkon: 510 koní</p>
+                    <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
+
+                    <button class="Rezervovat_but">Rezervovať auto</button>
+                </div>
+            </div>
+        </a>
+
+        <a data-popup="popup1" onclick="openPopup()" class="auto-card">
+            <div class="Prehlasd">
+                <div>
+                    <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
+                </div>
+
+                <div class="videoinfo">
+                    <p class="Nazov">BMW M4 Competition</p>
+                    <p class="Tvorca">Výkon: 510 koní</p>
+                    <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
+
+                    <button class="Rezervovat_but">Rezervovať auto</button>
+                </div>
+            </div>
+        </a>
+
+        <a data-popup="popup1" onclick="openPopup()" class="auto-card">
+            <div class="Prehlasd">
+                <div>
+                    <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
+                </div>
+
+                <div class="videoinfo">
+                    <p class="Nazov">BMW M4 Competition</p>
+                    <p class="Tvorca">Výkon: 510 koní</p>
+                    <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
+
+                    <button class="Rezervovat_but">Rezervovať auto</button>
+                </div>
+            </div>
+        </a>
+
+        <a data-popup="popup1" onclick="openPopup()" class="auto-card">
+            <div class="Prehlasd">
+                <div>
+                    <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
                 </div>
 
                 <div class="videoinfo">
@@ -101,6 +158,23 @@
         </div>
     </div>
 
-</body>
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
 
+            <h2 class="Infauto">Informacie o aute</h2>
+            <img class="popup-image" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
+            <p class="popup-text">BMW M4 Competition</p>
+            <p class="popup-vykon">Výkon: 510 koní</p>
+            <p class="popup-rychlost">0–100 km/h za 3.9 s
+                · Max 250 km/h</p>
+            <p class="infoska">Tento športový automobil je vo výbornom stave. Motor funguje perfektne a ponúka výkon 510 koní,
+                čo zabezpečuje dynamickú jazdu. Brzdy sú úplne nové a reagujú okamžite, pneumatiky majú dostatočnú
+                hĺbku dezénu, karoséria je bez poškodení a interiér je čistý a udržiavaný. Auto prešlo pravidelnou
+                servisnou
+                kontrolou a je pripravené na okamžité používanie.</p>
+            <button class="confirm-btn" onclick="closePopup()">Potvrdiť rezerváciu</button>
+        </div>
+    </div>
+</body>
 </html>
