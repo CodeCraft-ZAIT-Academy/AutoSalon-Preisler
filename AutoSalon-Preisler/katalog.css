@@ -135,7 +135,7 @@
     background: rgba(0,0,0,0.6);
     justify-content: center;
     align-items: center;
-    z-index: -1000;
+    
 }
 
 .popup-content {
@@ -146,6 +146,7 @@
     border-radius: 10px;
     position: relative;
     animation: popupAnim 0.5s ease;
+   
 }
 
 @keyframes popupAnim {
@@ -212,7 +213,7 @@
     flex-direction: row;
     position: sticky;
     top: 110px;
-    z-index: 500;
+    
    
 }
 .bmw{
