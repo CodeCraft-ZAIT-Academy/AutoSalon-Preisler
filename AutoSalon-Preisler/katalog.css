@@ -213,6 +213,7 @@
     flex-direction: row;
     position: sticky;
     top: 110px;
+    padding: 10px;
     
    
 }
@@ -222,4 +223,11 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+.lo:hover{
+    
+    box-shadow: 0 4px 8px rgba(0, 162, 255, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    border-radius: 25px;
 }
