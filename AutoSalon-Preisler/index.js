@@ -1,34 +1,35 @@
 document.addEventListener("DOMContentLoaded", function () {
-
     const popup = document.getElementById("popup");
 
-    function openPopup() {
+    // 1. Funkcia na otvorenie pop-upu s dátami z karty
+    window.openPopup = function(card) {
+        // Načítanie dát z "data-" atribútov
+        const image = card.dataset.image;
+        const name = card.dataset.name;
+        const vykon = card.dataset.vykon;
+        const rychlost = card.dataset.rychlost;
+        const info = card.dataset.info;
+
+        // Dosadenie dát do elementov v pop-upe
+        document.querySelector('.popup-image').src = image;
+        document.querySelector('.popup-text').textContent = name;
+        document.querySelector('.popup-vykon').textContent = "Výkon: " + vykon;
+        document.querySelector('.popup-rychlost').textContent = rychlost;
+        document.querySelector('.infoska').textContent = info;
+
+        // Zobrazenie pop-upu
         popup.style.display = "flex";
-    }
+    };
 
-    function closePopup() {
+    // 2. Funkcia na zatvorenie
+    window.closePopup = function() {
         popup.style.display = "none";
-    }
+    };
 
-    window.openPopup = openPopup;
-    window.closePopup = closePopup;
-
+    // 3. Zatvorenie kliknutím mimo obsahu (na pozadie)
     popup.addEventListener("click", function (e) {
         if (e.target === popup) {
             closePopup();
         }
     });
-
 });
-
-function openPopup(event) {
-    event.stopPropagation(); 
-    const popupId = event.currentTarget.dataset.popup; 
-    const popup = document.getElementById(popupId);
-    if (popup) popup.style.display = 'flex';
-}
-
-function closePopup(popupId) {
-    const popup = document.getElementById(popupId);
-    if (popup) popup.style.display = 'none';
-}

@@ -139,62 +139,38 @@
             </div>
         </a>
 
-        <a data-popup="popup1" onclick="openPopup()" class="auto-card" data-tooltip="Klikni pre detail auta">
-            <div class="Prehlasd">
-                <div>
-                    <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
-                </div>
+        <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card"
+            data-image="2025-audi-q5-front-angle-view-ak878.webp" data-name="BMW M4 Competition" data-vykon="510 koní"
+            data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
+            data-info="Tento športový automobil je vo výbornom stave. Motor funguje perfektne...">
 
+            <div class="Prehlasd">
+                <img class="nahladak" src="2025-audi-q5-front-angle-view-ak878.webp">
                 <div class="videoinfo">
                     <p class="Nazov">BMW M4 Competition</p>
                     <p class="Tvorca">Výkon: 510 koní</p>
                     <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
-
                     <button class="Rezervovat_but">Rezervovať auto</button>
                 </div>
             </div>
         </a>
     </div>
 
-    <div id="popup" class="popup">
+    <div id="popup" class="popup" style="display:none;">
         <div class="popup-content">
             <span class="close" onclick="closePopup()">&times;</span>
 
-            <h2 class="Infauto">Informacie o aute</h2>
-            <img class="popup-image" src="bISoRVSjTS_fss.webp" alt="Auto">
-            <p class="popup-text">BMW M4 Competition</p>
-            <p class="popup-vykon">Výkon: 510 koní</p>
-            <p class="popup-rychlost">0–100 km/h za 3.9 s
-                · Max 250 km/h</p>
-            <p class="infoska">Tento športový automobil je vo výbornom stave. Motor funguje perfektne a ponúka výkon 510
-                koní,
-                čo zabezpečuje dynamickú jazdu. Brzdy sú úplne nové a reagujú okamžite, pneumatiky majú dostatočnú
-                hĺbku dezénu, karoséria je bez poškodení a interiér je čistý a udržiavaný. Auto prešlo pravidelnou
-                servisnou
-                kontrolou a je pripravené na okamžité používanie.</p>
-            <button class="confirm-btn" onclick="closePopup()">Potvrdiť rezerváciu</button>
+            <h2 class="Infauto" id="popup-header">Informácie o aute</h2>
+            <img class="popup-image" id="popup-img" src="" alt="Auto">
+            <p class="popup-text" id="popup-name"></p>
+            <p class="popup-vykon" id="popup-power"></p>
+            <p class="popup-rychlost" id="popup-speed"></p>
+            <p class="infoska" id="popup-desc"></p>
+
+            <button class="confirm-btn" onclick="confirmReservation()">Potvrdiť rezerváciu</button>
         </div>
     </div>
 
-    <div id="popup1" class="popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-
-            <h2 class="Infauto">Informacie o aute</h2>
-            <img class="popup-image" src="2025-audi-q5-front-angle-view-ak878.webp" alt="Auto">
-            <p class="popup-text">BMW M4 Competition</p>
-            <p class="popup-vykon">Výkon: 510 koní</p>
-            <p class="popup-rychlost">0–100 km/h za 3.9 s
-                · Max 250 km/h</p>
-            <p class="infoska">Tento športový automobil je vo výbornom stave. Motor funguje perfektne a ponúka výkon 510
-                koní,
-                čo zabezpečuje dynamickú jazdu. Brzdy sú úplne nové a reagujú okamžite, pneumatiky majú dostatočnú
-                hĺbku dezénu, karoséria je bez poškodení a interiér je čistý a udržiavaný. Auto prešlo pravidelnou
-                servisnou
-                kontrolou a je pripravené na okamžité používanie.</p>
-            <button class="confirm-btn" onclick="closePopup()">Potvrdiť rezerváciu</button>
-        </div>
-    </div>
 </body>
 
 </html>
