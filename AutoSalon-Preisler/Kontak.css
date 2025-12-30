@@ -101,10 +101,20 @@
 .forms{
     max-width: 500px;
     align-content: center;
+    border: 1px solid black;
 }
 .Nazov{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 50px;
+}
+.submitbut{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: aliceblue;
 }
