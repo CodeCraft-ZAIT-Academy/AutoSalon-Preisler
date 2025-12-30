@@ -1,50 +1,63 @@
-.header{
+.header {
     background-color: #012A38;
     position: fixed;
     top: 0px;
-    left:0px;
+    left: 0px;
     right: 0px;
     height: 100px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
     z-index: 1000;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
-.Title{
+
+.Title {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #EFF1F3;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
 }
-.headercontent{
+
+.headercontent {
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
 }
-.png{
+
+.png {
     width: 150px;
     height: 150px;
 }
-.Login-link{
-    color: #EFF1F3 ;
+
+.Login-link {
+    color: #EFF1F3;
     font-size: 23px;
     text-decoration: none;
 }
-.Title-o{
+
+.Title-o {
     margin: 0px;
     display: block;
-    color: #EFF1F3 ;
-    text-decoration: none;
-    
-}
-.Login-linko{
-    font-size: 25px;
-    color: #EFF1F3 ;
+    color: #EFF1F3;
     text-decoration: none;
 
 }
+
+.Login-linko {
+    font-size: 25px;
+    color: #EFF1F3;
+    text-decoration: none;
+
+}
+
 .telo {
     padding-top: 97px;
     height: auto;
@@ -52,21 +65,23 @@
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    
-    
+
+
 }
-.info{
+
+.info {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 20px;
-    padding-right:20px ;
+    padding-right: 20px;
     border: #012A38 2px solid;
     height: 100%;
 
 }
-.Rezervovat_but{
+
+.Rezervovat_but {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-size: 20px;
@@ -77,22 +92,25 @@
     border: #012A38 2px solid;
     border-radius: 25px;
     align-items: middle;
-     display: block;
+    display: block;
     margin: 15px auto 0 auto;
-    
+
 }
-.jazz{
+
+.jazz {
     text-decoration: none;
     color: black;
 }
-.Filter{
+
+.Filter {
     width: 1fr;
     background-color: #012A38;
 }
-.joj{
+
+.joj {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .auto-card {
@@ -123,11 +141,15 @@
     margin-top: 10px;
     align-items: center;
 }
-.Nazov,.Tvorca,.Statistika {
+
+.Nazov,
+.Tvorca,
+.Statistika {
     margin: 0;
     text-align: center;
     font-size: 20px;
 }
+
 .Nazov {
     font-size: 30px;
     font-weight: bold;
@@ -137,11 +159,11 @@
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     justify-content: center;
     align-items: center;
     z-index: 10000;
-    
+
 }
 
 .popup-content {
@@ -152,12 +174,19 @@
     border-radius: 10px;
     position: relative;
     animation: popupAnim 0.5s ease;
-   
+
 }
 
 @keyframes popupAnim {
-    from { transform: scale(0.9); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .popup-content input {
@@ -179,68 +208,79 @@
     width: 100%;
     padding: 10px;
 }
-.auto-card:hover{
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+.auto-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
     transition: all 0.3s ease;
     background-color: rgba(128, 128, 128, 0.182);
 }
-.Infauto{
+
+.Infauto {
     text-align: center;
 }
-.popup-image{
+
+.popup-image {
     width: 100%;
     max-width: 450px;
     border-radius: 10px;
     margin-top: 15px;
 }
-.popup-text{
+
+.popup-text {
     font-size: 22px;
     text-align: center;
     margin-top: 10px;
 }
-.popup-vykon, .popup-rychlost{
+
+.popup-vykon,
+.popup-rychlost {
     font-size: 18px;
     text-align: center;
     margin-top: 5px;
 }
-.infoska{
+
+.infoska {
     font-size: 18px;
     text-align: center;
 
 }
-.filter{
+
+.filter {
     background-color: #24596b;
     height: 150px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-between;
     flex-direction: row;
     position: sticky;
     top: 110px;
     padding: 10px;
     z-index: 11;
-    
-   
+
+
 }
-.bmw{
+
+.bmw {
     width: 130px;
     height: auto;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
-.lo:hover{
-    
+
+.lo:hover {
+
     box-shadow: 0 4px 8px rgba(0, 162, 255, 0.2);
     transform: translateY(-5px);
     transition: all 0.3s ease;
     border-radius: 25px;
 }
+
 .auto-card::after {
-    
+
     content: attr(data-tooltip);
     position: absolute;
     top: 28px;
@@ -269,19 +309,54 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
-    text-align: center;
     vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 20px;
 }
 
 .footext {
     padding-top: 21px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .copyright {
+    margin-top: 0px;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.middleside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socki {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
 }

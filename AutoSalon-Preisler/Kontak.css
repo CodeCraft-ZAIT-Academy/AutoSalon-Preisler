@@ -8,12 +8,18 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .Title{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #EFF1F3;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
 }
 .headercontent{
     height: 100px;
@@ -89,10 +95,10 @@
     text-decoration: italic;
 }
 .Otazka{
-    font-size: 35px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    width: 250px;
+    width: 180px;
 }
 .input{
     width: 300px;
@@ -100,7 +106,17 @@
     font-size: 20px;
 }
 .forms{
+
+    display: inline-block;
     border: 1px solid black;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
 
 }
 .Nazov{
@@ -111,16 +127,96 @@
 }
 .submitbut{
     font-size: 20px;
-    width: 150px;
+    width: 250px;
     height: 50px;
     margin-top: 20px;
     cursor: pointer;
     border-radius: 25px;
     background-color: aliceblue;
+    text-align: center;
 }
 .Riadok{
     margin-bottom: 9px;
 }
+.input{
+    border-radius: 15px;    
+    border: 0.5px solid rgb(0, 0, 0);
+}
+.chekichek{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.inputo{
+    border-radius: 15px;    
+    border: 0.5px solid rgb(0, 0, 0);
+    height: 150px;
+    width: 300px;
 
-    
-  
+}
+.Suhlas{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+.socki {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.middleside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.footer {
+    color: whitesmoke;
+    background-color: #3a3d3f;
+    height: 100px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 25px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 20px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.footext {
+    padding-top: 21px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.copyright {
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: italic;
+}

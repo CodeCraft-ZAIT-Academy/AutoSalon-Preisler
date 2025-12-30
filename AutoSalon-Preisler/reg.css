@@ -10,6 +10,7 @@
     padding-right: 25px;
     align-items: center;
     flex: 1;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -18,6 +19,11 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #EFF1F3;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
 
 }
 
@@ -52,13 +58,13 @@
 
 .Login-linko {
     font-size: 25px;
-    color: #EFF1F3 ;
+    color: #EFF1F3;
     text-decoration: none;
 }
 
 .telo {
     padding-top: 160px;
-    
+
 }
 
 .login-form {
@@ -72,10 +78,11 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
     text-align: center;
-    
+
 }
+
 .asdo {
     color: #012A38;
 }
@@ -93,11 +100,12 @@
     margin-bottom: 25px;
     color: white;
     font-size: 35px;
-    
-   
-    
+
+
+
 }
-.prihlas-form{
+
+.prihlas-form {
     background-color: #559cb4;
     z-index: 1;
     border-radius: 50px;
@@ -107,25 +115,29 @@
     width: 30vw;
     display: inline-block;
 }
+
 .Odkaz {
     text-decoration: none;
     color: white;
     font-size: 30px;
     display: block;
 }
+
 .jazz {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 18px;
     display: block;
 }
+
 .Odkazik {
-   text-decoration: none;
+    text-decoration: none;
     color: rgb(255, 176, 176);
     font-size: 33px;
     display: block;
     margin-top: 10px;
 }
+
 .footer {
     color: whitesmoke;
     background-color: #3a3d3f;
@@ -133,19 +145,57 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
-    text-align: center;
     vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 20px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
 }
 
 .footext {
     padding-top: 21px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .copyright {
+    margin-top: 0px;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
+}
+.socki {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.middleside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
