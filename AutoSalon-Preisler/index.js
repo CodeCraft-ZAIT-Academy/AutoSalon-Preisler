@@ -55,3 +55,25 @@ window.filterCars = function(selectedBrand) {
     });
 };
 
+window.reserveCar = function() {
+    // Vytiahneme aktuálne dáta z pop-upu
+    const carData = {
+        name: document.getElementById('popup-name').textContent,
+        prize: document.getElementById('popup-prize').textContent,
+        image: document.getElementById('popup-img').src,
+        id: Date.now() // Unikátne ID pre každú rezerváciu
+    };
+
+    // Načítame staré rezervácie
+    let list = JSON.parse(localStorage.getItem('mojeAuta')) || [];
+    
+    // Pridáme nové auto
+    list.push(carData);
+    
+    // Uložíme späť
+    localStorage.setItem('mojeAuta', JSON.stringify(list));
+
+    alert("Auto bolo pridané do vašich rezervácií!");
+    window.closePopup(); // Zavrie okno
+};
+

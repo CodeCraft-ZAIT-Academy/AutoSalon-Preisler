@@ -44,6 +44,14 @@
     text-decoration: none;
     
 }
+.telo{
+    padding-top: 97px;
+    height: auto;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .Login-linko{
     font-size: 25px;
     color: #EFF1F3 ;
@@ -111,4 +119,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.videoinfogrid {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
 }

@@ -120,6 +120,8 @@
     margin-top: 15px;
     z-index: 1px;
     position: relative;
+    column-gap: 30px;
+    row-gap: 70px;
 }
 
 .Prehlasd {
