@@ -32,23 +32,26 @@
 
     <div class="filter">
         <div>
-            <a class="lo" href="katalog.css"><img alt="BMW" src="Pictures/bmw-2-logo-png-transparent.png" class="bmw"></a>
+            <a class="lo" onclick="filterCars('bmw')" href="#"><img alt="BMW" src="Pictures/bmw-2-logo-png-transparent.png" class="bmw"></a>
         </div>
         <div>
-            <a class="lo" href="katalog.css"><img alt="BMW" src="Pictures/Mercedes-Logo.svg.png" class="bmw"></a>
+            <a class="lo" onclick="filterCars('mercedes')" href="#"><img alt="BMW" src="Pictures/Mercedes-Logo.svg.png" class="bmw"></a>
         </div>
         <div>
-            <a class="lo" href="katalog.css"><img alt="BMW" src="Pictures/Volkswagen_logo_2019.svg.png" class="bmw"></a>
+            <a class="lo" onclick="filterCars('volkswagen')" href="#"><img alt="BMW" src="Pictures/Volkswagen_logo_2019.svg.png" class="bmw"></a>
         </div>
         <div>
-            <a class="lo" href="katalog.css"><img alt="BMW" src="Pictures/audi-1-logo-png-transparent.png" class="bmw"></a>
+            <a class="lo" onclick="filterCars('all')" href="#"><img alt="BMW" src="Pictures/garage.png" class="bmw"></a>
         </div>
         <div>
-            <a class="lo" href="katalog.css"><img alt="BMW" src="Pictures/Skoda_Wordmark_RGB_Emerald_Green_e2c8d407.png"
+            <a class="lo" onclick="filterCars('audi')" href="#"><img alt="BMW" src="Pictures/audi-1-logo-png-transparent.png" class="bmw"></a>
+        </div>
+        <div>
+            <a class="lo" onclick="filterCars('skoda')" href="#"><img alt="BMW" src="Pictures/Skoda_Wordmark_RGB_Emerald_Green_e2c8d407.png"
                     class="bmw"></a>
         </div>
         <div>
-            <a class="lo" href="katalog.css"><img alt="BMW" src="Pictures/KIA_logo3.svg.png"
+            <a class="lo" onclick="filterCars('kia')" href="#"><img alt="BMW" src="Pictures/KIA_logo3.svg.png"
                     class="bmw"></a>
         </div>
 
@@ -57,7 +60,7 @@
 
     <div class="Zdroj">
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/VESbotZIf_fss.webp" data-name="Kia Ceed" data-prize="15 000" data-vykon="510 koní"
+            data-image="Pictures/VESbotZIf_fss.webp" data-brand="kia" data-name="Kia Ceed" data-prize="15 000" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Apple CarPlay, 1 x Voľba jazdného režimu, 1 x Infotainment, 
@@ -78,7 +81,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/ydgYEPqJLU_fss.webp" data-name="Skoda Octavia" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/ydgYEPqJLU_fss.webp" data-brand="skoda" data-name="Skoda Octavia" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 1 x Apple CarPlay, 
             1 x Infotainment, 1 x Kožený volant, 1 x náhradné koleso, 1 x Android Auto, 1 x elektr.sklop.zrcátka, 
@@ -96,7 +99,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/9BM4rcsYp4_fss.webp" data-name="Audi A4" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/9BM4rcsYp4_fss.webp" data-brand="audi" data-name="Audi A4" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 8X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Kompresor - lepiaca sada, 1 x asistent rozjazdu do kopca, 1 x Infotainment, 
@@ -116,7 +119,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/gFA6H9cac_fss.webp" data-name="BMW M4 Competition" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/gFA6H9cac_fss.webp" data-brand="bmw" data-name="BMW M4 Competition" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -135,7 +138,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/ruwUbVfZrs_fss.webp" data-name="Mercedes A trieda" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/ruwUbVfZrs_fss.webp" data-brand="mercedes" data-name="Mercedes A trieda" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -154,7 +157,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/gOJT3Rtvn_fss.webp" data-name="Volkswagen Tiguan" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/gOJT3Rtvn_fss.webp" data-brand="volkswagen" data-name="Volkswagen Tiguan" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -173,7 +176,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/_ad3S0TO9_fss.webp" data-name="ŠKODA FABIA" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/_ad3S0TO9_fss.webp" data-brand="skoda" data-name="ŠKODA FABIA" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Apple CarPlay, 1 x Voľba jazdného režimu, 1 x Infotainment, 
@@ -194,7 +197,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/AMgFPaKh9U_fss.webp" data-name="Audi RS6" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/AMgFPaKh9U_fss.webp" data-brand="audi" data-name="Audi RS6" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 1 x Apple CarPlay, 
             1 x Infotainment, 1 x Kožený volant, 1 x náhradné koleso, 1 x Android Auto, 1 x elektr.sklop.zrcátka, 
@@ -212,7 +215,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/ePoDKpSYE_fss.webp" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/ePoDKpSYE_fss.webp" data-brand="volkswagen" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 8X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Kompresor - lepiaca sada, 1 x asistent rozjazdu do kopca, 1 x Infotainment, 
@@ -232,7 +235,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/KRVkQiFbc_fss.webp" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/KRVkQiFbc_fss.webp" data-brand="volkswagen" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -251,7 +254,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/x18wN1sOR_fss.webp" data-name="Mercedes-Benz" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/x18wN1sOR_fss.webp" data-brand="mercedes" data-name="Mercedes-Benz" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -270,7 +273,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/o1gjmQK-t_fss.webp" data-name="BMW" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/o1gjmQK-t_fss.webp" data-brand="bmw" data-name="BMW" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -289,7 +292,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/VESbotZIf_fss.webp" data-name="Kia Ceed" data-prize="15 000" data-vykon="510 koní"
+            data-image="Pictures/VESbotZIf_fss.webp" data-brand="kia" data-name="Kia Ceed" data-prize="15 000" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Apple CarPlay, 1 x Voľba jazdného režimu, 1 x Infotainment, 
@@ -310,7 +313,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/ydgYEPqJLU_fss.webp" data-name="Skoda Octavia" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/ydgYEPqJLU_fss.webp" data-brand="skoda" data-name="Skoda Octavia" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 1 x Apple CarPlay, 
             1 x Infotainment, 1 x Kožený volant, 1 x náhradné koleso, 1 x Android Auto, 1 x elektr.sklop.zrcátka, 
@@ -328,7 +331,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/9BM4rcsYp4_fss.webp" data-name="Audi A4" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/9BM4rcsYp4_fss.webp" data-brand="audi" data-name="Audi A4" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 8X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Kompresor - lepiaca sada, 1 x asistent rozjazdu do kopca, 1 x Infotainment, 
@@ -348,7 +351,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/gFA6H9cac_fss.webp" data-name="BMW M4 Competition" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/gFA6H9cac_fss.webp" data-brand="bmw" data-name="BMW M4 Competition" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -367,7 +370,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/ruwUbVfZrs_fss.webp" data-name="Mercedes A trieda" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/ruwUbVfZrs_fss.webp" data-brand="mercedes" data-name="Mercedes A trieda" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -386,7 +389,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/gOJT3Rtvn_fss.webp" data-name="Volkswagen Tiguan" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/gOJT3Rtvn_fss.webp" data-brand="volkswagen" data-name="Volkswagen Tiguan" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -405,7 +408,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/_ad3S0TO9_fss.webp" data-name="ŠKODA FABIA" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/_ad3S0TO9_fss.webp" data-brand="skoda" data-name="ŠKODA FABIA" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Apple CarPlay, 1 x Voľba jazdného režimu, 1 x Infotainment, 
@@ -426,7 +429,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/AMgFPaKh9U_fss.webp" data-name="Audi RS6" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/AMgFPaKh9U_fss.webp" data-brand="audi" data-name="Audi RS6" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 1 x Apple CarPlay, 
             1 x Infotainment, 1 x Kožený volant, 1 x náhradné koleso, 1 x Android Auto, 1 x elektr.sklop.zrcátka, 
@@ -444,7 +447,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/ePoDKpSYE_fss.webp" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/ePoDKpSYE_fss.webp" data-brand="volkswagen" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 8X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
             1 x Kompresor - lepiaca sada, 1 x asistent rozjazdu do kopca, 1 x Infotainment, 
@@ -464,7 +467,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/KRVkQiFbc_fss.webp" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/KRVkQiFbc_fss.webp" data-brand="volkswagen" data-name="VOLKSWAGEN PASSAT" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -483,7 +486,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/x18wN1sOR_fss.webp" data-name="Mercedes-Benz" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/x18wN1sOR_fss.webp" data-brand="mercedes" data-name="Mercedes-Benz" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
@@ -502,7 +505,7 @@
         </a>
 
         <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
-            data-image="Pictures/o1gjmQK-t_fss.webp" data-name="BMW" data-prize="15 000 €" data-vykon="510 koní"
+            data-image="Pictures/o1gjmQK-t_fss.webp" data-brand="bmw" data-name="BMW" data-prize="15 000 €" data-vykon="510 koní"
             data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
             data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
             1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
