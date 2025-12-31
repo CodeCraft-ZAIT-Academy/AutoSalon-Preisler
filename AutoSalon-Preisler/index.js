@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Načítanie dát z "data-" atribútov
         const image = card.dataset.image;
         const name = card.dataset.name;
+        const prize = card.dataset.prize;
         const vykon = card.dataset.vykon;
         const rychlost = card.dataset.rychlost;
         const info = card.dataset.info;
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Dosadenie dát do elementov v pop-upe
         document.querySelector('.popup-image').src = image;
         document.querySelector('.popup-text').textContent = name;
+         document.querySelector('.popup-prize').textContent = prize;
         document.querySelector('.popup-vykon').textContent = "Výkon: " + vykon;
         document.querySelector('.popup-rychlost').textContent = rychlost;
         document.querySelector('.infoska').textContent = info;

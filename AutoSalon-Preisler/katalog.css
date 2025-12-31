@@ -358,5 +358,10 @@
 .socki {
     width: 50px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 10%
+}
+.popup-prize{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
 }
