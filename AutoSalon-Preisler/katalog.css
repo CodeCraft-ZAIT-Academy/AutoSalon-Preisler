@@ -374,3 +374,130 @@
     text-align: center;
     margin-top: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .headercontent {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    .Title {
+        font-size: 20px;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .png {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Login-link, .Login-linko {
+        font-size: 18px;
+    }
+
+    .videoinfogrid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+    }
+
+    .Nazov {
+        font-size: 25px;
+    }
+
+    .Tvorca, .Statistika {
+        font-size: 18px;
+    }
+
+    .popup-content {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .popup-image {
+        max-width: 100%;
+    }
+
+    .filter {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .bmw {
+        width: 100px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footext {
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Title {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .png {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Login-link, .Login-linko {
+        font-size: 16px;
+    }
+
+    .videoinfogrid {
+        grid-template-columns: 1fr;
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+
+    .Nazov {
+        font-size: 20px;
+    }
+
+    .Tvorca, .Statistika {
+        font-size: 16px;
+    }
+
+    .popup-content {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .popup-text {
+        font-size: 25px;
+    }
+
+    .popup-vykon, .popup-rychlost, .infoska {
+        font-size: 16px;
+    }
+
+    .Rezervovat_but {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .bmw {
+        width: 80px;
+    }
+}

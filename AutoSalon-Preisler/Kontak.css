@@ -235,3 +235,148 @@
 .Riadoko{
     margin-bottom: 9px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .headercontent {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
+    .Title {
+        font-size: 20px;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .png {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Login-link, .Login-linko {
+        font-size: 18px;
+    }
+
+    .Kontakt-chart {
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        font-size: 30px;
+    }
+
+    .Name {
+        font-size: 25px;
+    }
+
+    .meno, .Email {
+        font-size: 18px;
+    }
+
+    .Nazov {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .forms {
+        padding: 20px;
+        max-width: 90%;
+        gap: 15px;
+    }
+
+    .input, .inputo, .textove {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .submitbut {
+        width: 100%;
+        font-size: 18px;
+        height: 45px;
+    }
+
+    .Suhlas {
+        font-size: 18px;
+    }
+
+    .chekichek {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        position: static;
+        margin-top: 50px;
+    }
+
+    .footext {
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Title {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .png {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Login-link, .Login-linko {
+        font-size: 16px;
+    }
+
+    .Kontakt-chart {
+        font-size: 25px;
+    }
+
+    .Name {
+        font-size: 20px;
+    }
+
+    .meno, .Email {
+        font-size: 16px;
+    }
+
+    .Nazov {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .forms {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .input, .inputo, .textove {
+        font-size: 16px;
+    }
+
+    .submitbut {
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .Suhlas {
+        font-size: 16px;
+    }
+
+    .chekichek {
+        width: 20px;
+        height: 20px;
+    }
+}
