@@ -265,17 +265,22 @@
         margin-top: 50px;
     }
 
+     .telo {
+        padding-top: 210px;
+    }
+
     .footext {
         padding-top: 0;
         margin-bottom: 5px;
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .Title {
         font-size: 16px;
         gap: 10px;
     }
+    
 
     .png {
         width: 80px;
@@ -303,8 +308,8 @@
     }
 
     .Name {
-        font-size: 20px;
-        margin-bottom: 15px;
+        font-size: 30px;
+        margin-bottom: 20px;
     }
 
     .Odkaz, .Odkazik {
