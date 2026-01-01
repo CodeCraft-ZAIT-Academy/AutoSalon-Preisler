@@ -272,8 +272,8 @@ th {
     align-items: center;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+
+@media (min-width: 481px) {
     .header {
         height: auto;
         padding: 10px;
@@ -382,16 +382,35 @@ th {
         font-size: 16px;
         gap: 10px;
     }
-
+    .footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
     .png {
         width: 80px;
         height: 80px;
+    }
+    .Paragrafa {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header {
+        height: auto;
+        padding: 10px;
+    }
+    .headercontent {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
     }
 
     .Login-link,
     .Login-linko {
         font-size: 16px;
     }
+
 
     .uvodtext {
         font-size: 20px;
@@ -441,31 +460,34 @@ th {
 
     .logoauto {
         height: auto;
-        width: 50px;
+        width: 30px;
     }
 
     .logoauto-b {
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
     }
     .asdasd {
-        font-size: 12px;
+        font-size: 5px;
     }
     .socki {
         width: 30px;
     }
 
     .Znacka {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .modely {
-        font-size: 9px;
+        font-size: 6px;
     }
     .footext {
         font-size: 15px;
     }
     .opyright{
         font-size: 10px;
+    }
+     .telo {
+        padding-top: 156px;
     }
 }
