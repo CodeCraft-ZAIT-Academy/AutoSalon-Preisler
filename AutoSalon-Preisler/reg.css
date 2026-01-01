@@ -272,14 +272,14 @@
         position: static;
         margin-top: 50px;
     }
-
+S
     .footext {
         padding-top: 0;
         margin-bottom: 5px;
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     .Title {
         font-size: 16px;
         gap: 10px;
@@ -302,6 +302,7 @@
         width: 90vw;
         padding: 15px;
         gap: 10px;
+        height: 450px;
     }
 
     .Holder {
@@ -311,8 +312,8 @@
     }
 
     .Name {
-        font-size: 20px;
-        margin-bottom: 15px;
+        font-size: 25px;
+        margin-bottom: 25px;
     }
 
     .Odkaz, .Odkazik {
