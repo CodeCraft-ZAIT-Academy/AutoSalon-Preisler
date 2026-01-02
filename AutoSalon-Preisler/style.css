@@ -273,7 +273,7 @@ th {
 }
 
 
-@media (min-width: 481px) {
+@media (max-width: 481px) {
     .header {
         height: auto;
         padding: 10px;
