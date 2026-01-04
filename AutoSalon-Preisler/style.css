@@ -273,7 +273,7 @@ th {
 }
 
 
-@media (max-width: 481px) {
+@media (max-width: 830px) {
     .header {
         height: auto;
         padding: 10px;
@@ -341,6 +341,7 @@ th {
 
     .NasaPonuka {
         font-size: 18px;
+         text-align: center;
     }
 
     .logoauto {
@@ -456,6 +457,8 @@ th {
 
     .NasaPonuka {
         font-size: 16px;
+        text-align: center;
+        
     }
 
     .logoauto {

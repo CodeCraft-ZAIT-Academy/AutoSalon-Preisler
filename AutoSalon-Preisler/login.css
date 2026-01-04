@@ -196,7 +196,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     .header {
         height: auto;
         padding: 10px;
@@ -263,6 +263,10 @@
         padding: 20px;
         position: static;
         margin-top: 50px;
+        position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
     }
 
      .telo {
@@ -275,7 +279,7 @@
     }
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     .Title {
         font-size: 16px;
         gap: 10px;
@@ -285,6 +289,15 @@
     .png {
         width: 80px;
         height: 80px;
+    }
+    .footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        position: static;
+        margin-top: 50px;
+        
     }
 
     .Login-link {
