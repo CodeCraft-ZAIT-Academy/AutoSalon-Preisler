@@ -57,13 +57,13 @@
 
 .Login-linko {
     font-size: 25px;
-    color: #EFF1F3 ;
+    color: #EFF1F3;
     text-decoration: none;
 }
 
 .telo {
     padding-top: 160px;
-    
+
 }
 
 .login-form {
@@ -77,10 +77,11 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
     text-align: center;
-    
+
 }
+
 .asdo {
     color: #012A38;
 }
@@ -98,11 +99,12 @@
     margin-bottom: 25px;
     color: white;
     font-size: 35px;
-    
-   
-    
+
+
+
 }
-.prihlas-form{
+
+.prihlas-form {
     background-color: #559cb4;
     z-index: 1;
     border-radius: 50px;
@@ -112,6 +114,7 @@
     width: 30vw;
     display: inline-block;
 }
+
 .Odkaz {
     text-decoration: none;
     color: white;
@@ -119,19 +122,22 @@
     display: block;
     margin-top: 10px;
 }
+
 .Odkazik {
-   text-decoration: none;
+    text-decoration: none;
     color: rgb(255, 176, 176);
     font-size: 33px;
     display: block;
     margin-top: 10px;
 }
+
 .jazz {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 18px;
     display: block;
 }
+
 .footer {
     color: whitesmoke;
     background-color: #3a3d3f;
@@ -154,18 +160,18 @@
 .footext {
     padding-top: 21px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .copyright {
     margin-top: 0px;
-    font-size: 15px;
+    font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
+    padding-bottom: 10px;
 }
-
 .socki {
     width: 50px;
     height: auto;
@@ -235,6 +241,18 @@
         gap: 15px;
     }
 
+    .Kontakt {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .mailo {
+        color: white;
+        text-decoration: none;
+    }
+
     .Holder {
         width: 100%;
         height: 60px;
@@ -247,7 +265,8 @@
         margin-bottom: 20px;
     }
 
-    .Odkaz, .Odkazik {
+    .Odkaz,
+    .Odkazik {
         font-size: 25px;
     }
 
@@ -264,12 +283,12 @@
         position: static;
         margin-top: 50px;
         position: fixed;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
     }
 
-     .telo {
+    .telo {
         padding-top: 210px;
     }
 
@@ -284,12 +303,13 @@
         font-size: 16px;
         gap: 10px;
     }
-    
+
 
     .png {
         width: 80px;
         height: 80px;
     }
+
     .footer {
         flex-direction: column;
         height: auto;
@@ -297,7 +317,7 @@
         padding: 20px;
         position: static;
         margin-top: 50px;
-        
+
     }
 
     .Login-link {
@@ -325,7 +345,8 @@
         margin-bottom: 20px;
     }
 
-    .Odkaz, .Odkazik {
+    .Odkaz,
+    .Odkazik {
         font-size: 20px;
     }
 
