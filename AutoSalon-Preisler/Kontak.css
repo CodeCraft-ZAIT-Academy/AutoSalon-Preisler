@@ -1,16 +1,18 @@
-.header{
+.header {
     background-color: #012A38;
     position: fixed;
     top: 0px;
-    left:0px;
+    left: 0px;
     right: 0px;
     height: 100px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
 }
-.Title{
+
+.Title {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #EFF1F3;
@@ -21,38 +23,46 @@
     align-items: center;
     gap: 35px;
 }
-.headercontent{
+
+.headercontent {
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
     align-items: center;
 }
-.png{
+
+.png {
     width: 150px;
     height: 150px;
 }
-.Login-link{
-    color: #EFF1F3 ;
+
+.Login-link {
+    color: #EFF1F3;
     font-size: 23px;
     text-decoration: none;
 }
-.Title-o{
+
+.Title-o {
     margin: 0px;
     display: block;
-    color: #EFF1F3 ;
+    color: #EFF1F3;
     text-decoration: none;
-    
+
 }
-.Login-linko{
+
+.Login-linko {
     font-size: 25px;
-    color: #EFF1F3 ;
+    color: #EFF1F3;
     text-decoration: none;
 }
-.telo{
+
+.telo {
     margin-top: 150px;
+    margin: 0px;
 }
-.Kontakt-chart{
+
+.Kontakt-chart {
     font-size: 45px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,16 +71,21 @@
     align-items: middle;
 
 }
-.Name{
+
+.Name {
     font-size: 35px;
     text-align: center;
 }
-.Odkazik{
+
+.Odkazik {
     text-align: center;
 }
-.meno,.Email{
+
+.meno,
+.Email {
     font-size: 20px;
 }
+
 .footer {
     color: whitesmoke;
     background-color: #3a3d3f;
@@ -94,40 +109,46 @@
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
 }
-.Otazka{
+
+.Otazka {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     width: 180px;
     vertical-align: top;
 }
-.input{
+
+.input {
     width: 300px;
     height: 40px;
     font-size: 20px;
 }
-.forms{
+
+.forms {
     border: 1px solid black;
-    padding: 30px;            
+    padding: 30px;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 550px;         
+    max-width: 550px;
     margin: 0 auto 150px auto;
-   
+    z-index: 100;
+
 
 }
-.Nazov{
+
+.Nazov {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 50px;
 }
-.submitbut{
-    align-items: center;       
+
+.submitbut {
+    align-items: center;
     font-size: 20px;
     width: 350px;
     height: 50px;
@@ -135,34 +156,40 @@
     border-radius: 25px;
     background-color: aliceblue;
 }
-.Riadok{
+
+.Riadok {
     margin-bottom: 9px;
-    display: flex;            
-    align-items: center;      
+    display: flex;
+    align-items: center;
     justify-content: center;
     vertical-align: top;
 }
-.input{
-    border-radius: 15px;    
+
+.input {
+    border-radius: 15px;
     border: 0.5px solid rgb(0, 0, 0);
 }
-.chekichek{
+
+.chekichek {
     width: 30px;
     height: 30px;
     margin-right: 10px;
     cursor: pointer;
 }
-.inputo{
-    border-radius: 15px;    
+
+.inputo {
+    border-radius: 15px;
     border: 0.5px solid rgb(0, 0, 0);
     height: 150px;
     width: 300px;
 
 }
-.Suhlas{
+
+.Suhlas {
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-}  
+}
+
 .socki {
     width: 50px;
     height: auto;
@@ -190,7 +217,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
+}
+
 .footer {
     color: whitesmoke;
     background-color: #3a3d3f;
@@ -224,7 +252,8 @@
     font-family: 'Times New Roman', Times, serif;
     text-decoration: italic;
 }
-.textove{
+
+.textove {
     resize: none;
     width: 300px;
     height: 150px;
@@ -232,15 +261,20 @@
     border: 0.5px solid rgb(0, 0, 0);
     font-size: 20px;
 }
-.Riadoko{
+
+.Riadoko {
     margin-bottom: 9px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: 830px) {
     .header {
         height: auto;
         padding: 10px;
+    }
+
+    .telo {
+        margin-top: 210px;
     }
 
     .headercontent {
@@ -260,7 +294,8 @@
         height: 100px;
     }
 
-    .Login-link, .Login-linko {
+    .Login-link,
+    .Login-linko {
         font-size: 18px;
     }
 
@@ -275,7 +310,8 @@
         font-size: 25px;
     }
 
-    .meno, .Email {
+    .meno,
+    .Email {
         font-size: 18px;
     }
 
@@ -290,7 +326,9 @@
         gap: 15px;
     }
 
-    .input, .inputo, .textove {
+    .input,
+    .inputo,
+    .textove {
         width: 100%;
         font-size: 18px;
     }
@@ -317,6 +355,10 @@
         padding: 20px;
         position: static;
         margin-top: 50px;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
     }
 
     .footext {
@@ -325,6 +367,7 @@
     }
 }
 
+/* Mobil */
 @media (max-width: 480px) {
     .Title {
         font-size: 16px;
@@ -336,7 +379,8 @@
         height: 80px;
     }
 
-    .Login-link, .Login-linko {
+    .Login-link,
+    .Login-linko {
         font-size: 16px;
     }
 
@@ -348,7 +392,8 @@
         font-size: 20px;
     }
 
-    .meno, .Email {
+    .meno,
+    .Email {
         font-size: 16px;
     }
 
@@ -362,7 +407,13 @@
         gap: 10px;
     }
 
-    .input, .inputo, .textove {
+    .telo {
+        margin-top: 190px;
+    }
+
+    .input,
+    .inputo,
+    .textove {
         font-size: 16px;
     }
 
@@ -378,5 +429,28 @@
     .chekichek {
         width: 20px;
         height: 20px;
+    }
+
+    .input {
+        width: 190px;
+
+    }
+
+    .textove {
+        width: 190px;
+    }
+
+    .Otazka {
+        width: 130px;
+        font-size: 17px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        position: static;
+        margin-top: 50px;
     }
 }

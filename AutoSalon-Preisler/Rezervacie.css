@@ -128,7 +128,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     .header {
         height: auto;
         padding: 10px;
@@ -180,6 +180,10 @@
     .Title {
         font-size: 16px;
         gap: 10px;
+    }
+
+    .telo {
+        padding-top: 290px;
     }
 
     .png {

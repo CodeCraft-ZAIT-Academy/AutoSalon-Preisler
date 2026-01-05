@@ -210,6 +210,10 @@
     margin-top: 10px;
     width: 100%;
     padding: 10px;
+    border-radius: 25px;
+    background-color: #EFF1F3;
+    color : #012A38;
+    font-size: 20px;
 }
 
 .auto-card:hover {
@@ -238,14 +242,15 @@
 
 .popup-vykon,
 .popup-rychlost {
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
     margin-top: 5px;
 }
 
 .infoska {
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
+   
 
 }
 
@@ -364,7 +369,7 @@
     margin-top: 10%
 }
 .popup-prize{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
