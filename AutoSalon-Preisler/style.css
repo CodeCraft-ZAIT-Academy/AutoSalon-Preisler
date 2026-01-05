@@ -12,7 +12,16 @@
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.Title {
+.headercontent {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.links {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #EFF1F3;
@@ -21,7 +30,44 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: var(--gap);
+    position: relative;
+    --items: 3;
+    --gap: 45px;
+}
+
+.links>a {
+    flex: 1;
+    text-align: center;
+}
+
+.links>.line {
+    opacity: 0;
+    transition: all .5s;
+    position: absolute;
+    bottom: 0;
+    left: calc((100% - 2*var(--gap)) / var(--items) * (var(--index) - 1) + var(--gap) * (var(--index) - 1));
+    width: calc((100% - 2*var(--gap)) / var(--items));
+    --index: 0;
+    background-color: #6fd1ff;
+    bottom: -5px;
+    height: 2px;
+}
+
+.links>a:hover~.line {
+    opacity: 1;
+}
+
+.links>a:nth-of-type(1):hover~.line {
+    --index: 1;
+}
+
+.links>a:nth-of-type(2):hover~.line {
+    --index: 2;
+}
+
+.links>a:nth-of-type(3):hover~.line {
+    --index: 3;
 }
 
 .headercontent {
@@ -54,6 +100,28 @@
     font-size: 25px;
     color: #EFF1F3;
     text-decoration: none;
+    position: relative;
+    width: 200px;
+}
+
+.Title .Login-linko:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #6fd1ff;
+}
+
+.logino .Login-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #6fd1ff;
 }
 
 .telo {
@@ -243,13 +311,15 @@ th {
 .mainpic {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
-.Kontakt{
+
+.Kontakt {
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-size: 25px;
 }
-.mailo{
+
+.mailo {
     color: white;
     text-decoration: none;
 }
@@ -285,7 +355,7 @@ th {
 
 
 @media (max-width: 830px) {
-    .header {
+    #header {
         height: auto;
         padding: 10px;
     }
@@ -300,6 +370,11 @@ th {
         font-size: 20px;
         gap: 15px;
         flex-wrap: wrap;
+    }
+
+    .links {
+        font-size: 20px;
+        --gap: 15px;
     }
 
     .telo {
@@ -352,7 +427,7 @@ th {
 
     .NasaPonuka {
         font-size: 18px;
-         text-align: center;
+        text-align: center;
     }
 
     .logoauto {
@@ -394,24 +469,34 @@ th {
         font-size: 16px;
         gap: 10px;
     }
+
+    .links {
+        font-size: 16px;
+        --gap: 10px;
+    }
+
     .footer {
         flex-direction: column;
         height: auto;
         text-align: center;
         padding: 20px;
     }
+
     .png {
         width: 80px;
         height: 80px;
     }
+
     .Paragrafa {
         flex-direction: column;
         gap: 20px;
     }
-    .header {
+
+    #header {
         height: auto;
         padding: 10px;
     }
+
     .headercontent {
         flex-direction: column;
         gap: 10px;
@@ -469,7 +554,7 @@ th {
     .NasaPonuka {
         font-size: 16px;
         text-align: center;
-        
+
     }
 
     .logoauto {
@@ -481,9 +566,11 @@ th {
         height: 30px;
         width: 30px;
     }
+
     .asdasd {
         font-size: 5px;
     }
+
     .socki {
         width: 30px;
     }
@@ -495,13 +582,16 @@ th {
     .modely {
         font-size: 6px;
     }
+
     .footext {
         font-size: 15px;
     }
-    .opyright{
+
+    .opyright {
         font-size: 10px;
     }
-     .telo {
+
+    .telo {
         padding-top: 156px;
     }
 }

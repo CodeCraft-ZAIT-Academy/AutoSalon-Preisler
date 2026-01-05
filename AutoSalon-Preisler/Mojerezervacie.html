@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Rezervacie.css">
     <link rel="icon" sizes="7x7" type="image/png" href="Pictures/znak.png">
 </head>
-<script src="reservation.js">
+<script src="index.js">
 
 </script>
 
@@ -18,14 +18,88 @@
             <a href="index.html">
                 <img class="png" alt="LogoSalon" src="Pictures/LogoSalon.png">
             </a>
-            <div class="Title">
+            <div class="links">
                 <a class="Login-linko" href="katalog.html">Katalog</a>
                 <a class="Login-linko" href="Mojerezervacie.html">Moje rezervacie</a>
                 <a class="Login-linko" href="Kontaktujtenas.html">Kontaktujte nas</a>
+                <span class="line"></span>
             </div>
             <div>
                 <a class="Login-link" href="login.html">Log in/Sign in</a>
             </div>
+        </div>
+    </div>
+
+    <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
+            data-image="Pictures/ydgYEPqJLU_fss.webp" data-brand="skoda" data-name="Skoda Octavia" data-prize="15 000 €" data-vykon="510 koní"
+            data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
+            data-info="Airbag 6X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 1 x Apple CarPlay, 
+            1 x Infotainment, 1 x Kožený volant, 1 x náhradné koleso, 1 x Android Auto, 1 x elektr.sklop.zrcátka, 
+            1 x zadné svetlá LED, 1 x USB pripojenie (audio), 1 x Virtuálny kokpit a veľa ďalšej výbavy|">
+
+            <div class="Prehlasd">
+                <img class="nahladak" src="Pictures/ydgYEPqJLU_fss.webp">
+                <div class="videoinfo">
+                    <p class="Nazov">Skoda Octavia</p>
+                    <p class="Tvorca">15 000 €</p>
+                    <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
+        
+                </div>
+            </div>
+        </a>
+
+        <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
+            data-image="Pictures/9BM4rcsYp4_fss.webp" data-brand="audi" data-name="Audi A4" data-prize="15 000 €" data-vykon="510 koní"
+            data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
+            data-info="Airbag 8X, |1 x Automatické denné svetlá, 1 x Lakťová opierka, 
+            1 x Kompresor - lepiaca sada, 1 x asistent rozjazdu do kopca, 1 x Infotainment, 
+            1 x Kožený volant, 1 x hlasové ovládanie palubného systému, 1 x Dvojité sklá, 
+            1 x elektr.sklop.zrcátka, 1 x Elektrická parkovací brzda, 1 x radenie páčkami pod volantom, 
+            1 x USB pripojenie (audio), 1 x Virtuálny kokpit a veľa ďalšej výbavy|">
+
+            <div class="Prehlasd">
+                <img class="nahladak" src="Pictures/9BM4rcsYp4_fss.webp">
+                <div class="videoinfo">
+                    <p class="Nazov">Audi A4</p>
+                    <p class="Tvorca">15 000 €</p>
+                    <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
+                    
+                </div>
+            </div>
+        </a>
+
+        <a href="javascript:void(0)" onclick="openPopup(this)" class="auto-card" data-tooltip="Klikni pre detail auta"
+            data-image="Pictures/gFA6H9cac_fss.webp" data-brand="bmw" data-name="BMW M4 Competition" data-prize="15 000 €" data-vykon="510 koní"
+            data-rychlost="0–100 km/h za 3.9 s · Max 250 km/h"
+            data-info="Airbag 6X, Vyhrievané zadné sedadlá, |1 x elektr.sklop.zrcátka, 
+            1 x Elektrická parkovací brzda, 1 x pamäť nastavenia sedadiel, 1 x a veľa ďalšej výbavy, 
+            1 x Automatické denné svetlá, 1 x Lakťová opierka, 
+            1 x asistent rozjazdu do kopca, 1 x Infotainment, 1 x Kožený volant a veľa ďalšej výbavy|">
+
+            <div class="Prehlasd">
+                <img class="nahladak" src="Pictures/gFA6H9cac_fss.webp">
+                <div class="videoinfo">
+                    <p class="Nazov">BMW M4 Competition</p>
+                    <p class="Tvorca">15 000 €</p>
+                    <p class="Statistika">0–100 km/h za 3.9 s · Max 250 km/h</p>
+                    
+                </div>
+            </div>
+        </a>
+
+        <div id="popup" class="popup" style="display:none;">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+
+            <h2 class="Infauto" id="popup-header">Informácie o aute</h2>
+            <img class="popup-image" id="popup-img" src="" alt="Auto">
+            <p class="popup-text" id="popup-name"></p>
+            <p class="popup-prize" id="popup-prize"></p>
+            <p class="popup-vykon" id="popup-power"></p>
+            <p class="popup-rychlost" id="popup-speed"></p>
+            <p class="infoska" id="popup-desc"></p>
+
+            
         </div>
     </div>
 
