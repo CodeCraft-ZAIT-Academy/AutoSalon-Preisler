@@ -355,6 +355,7 @@
 
     .Login-linko {
         font-size: 16px;
+        width: 100px;
     }
 
     .login-form {
@@ -372,6 +373,9 @@
         position: static;
         margin-top: 50px;
        
+    }
+    .telo {
+        margin: 0px;
     }
 
     .Holder {

@@ -113,6 +113,7 @@
     color: black;
 
 }
+
 .links {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -128,31 +129,39 @@
     --gap: 45px;
 }
 
-.links > a {
+.links>a {
     flex: 1;
     text-align: center;
 }
 
-.links > .line {
+.links>.line {
     opacity: 0;
     transition: all .5s;
     position: absolute;
     bottom: 0;
-    left: calc( (100% - 2*var(--gap)) / var(--items) * (var(--index) - 1) + var(--gap) * (var(--index) - 1) );
-    width: calc( (100% - 2*var(--gap)) / var(--items) );
+    left: calc((100% - 2*var(--gap)) / var(--items) * (var(--index) - 1) + var(--gap) * (var(--index) - 1));
+    width: calc((100% - 2*var(--gap)) / var(--items));
     --index: 0;
     background-color: #6fd1ff;
     bottom: -5px;
     height: 2px;
 }
 
-.links > a:hover ~ .line {
+.links>a:hover~.line {
     opacity: 1;
 }
 
-.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
-.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
-.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
+.links>a:nth-of-type(1):hover~.line {
+    --index: 1;
+}
+
+.links>a:nth-of-type(2):hover~.line {
+    --index: 2;
+}
+
+.links>a:nth-of-type(3):hover~.line {
+    --index: 3;
+}
 
 .auto-card {
     text-decoration: none;
@@ -253,7 +262,7 @@
     padding: 10px;
     border-radius: 25px;
     background-color: #EFF1F3;
-    color : #012A38;
+    color: #012A38;
     font-size: 20px;
 }
 
@@ -291,9 +300,10 @@
 .infoska {
     font-size: 23px;
     text-align: center;
-   
+
 
 }
+
 .footer {
     color: whitesmoke;
     background-color: #3a3d3f;
@@ -328,13 +338,15 @@
     text-decoration: italic;
     padding-bottom: 10px;
 }
-.Kontakt{
+
+.Kontakt {
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-size: 25px;
 }
-.mailo{
+
+.mailo {
     color: white;
     text-decoration: none;
 }
@@ -368,6 +380,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .videoinfogrid {
     display: flex;
     flex-direction: row;
@@ -388,6 +401,20 @@
         height: auto;
     }
 
+    .telo {
+        padding-top: 150px;
+    }
+
+    .carinfogrid {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
     .Title {
         font-size: 20px;
         gap: 15px;
@@ -399,7 +426,8 @@
         height: 100px;
     }
 
-    .Login-link, .Login-linko {
+    .Login-link,
+    .Login-linko {
         font-size: 18px;
     }
 
@@ -431,16 +459,27 @@
     }
 
     .telo {
-        padding-top: 290px;
+        padding-top: 180px;
     }
 
     .png {
         width: 80px;
         height: 80px;
     }
+    .carinfogrid {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-    .Login-link, .Login-linko {
+    .Login-link,
+    .Login-linko {
         font-size: 16px;
+        width: 100px;
     }
 
     .videoinfogrid {
