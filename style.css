@@ -545,7 +545,7 @@ th {
     .NasaAuta {
         font-size: 14px;
         overflow-x: auto;
-        display: block;
+        display: block;margin-left: 50px;
     }
 
     .NasaAuta th {
@@ -593,6 +593,6 @@ th {
     }
 
     .telo {
-        padding-top: 156px;
+        padding-top: 167px;
     }
 }
