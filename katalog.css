@@ -12,6 +12,12 @@
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
+.telo {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .Title {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -106,8 +112,6 @@
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-
-
 }
 
 .info {
@@ -403,7 +407,7 @@
     flex-direction: row;
     justify-content: space-between;
     vertical-align: middle;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 .footext {
@@ -605,4 +609,5 @@
     .bmw {
         width: 80px;
     }
+    
 }

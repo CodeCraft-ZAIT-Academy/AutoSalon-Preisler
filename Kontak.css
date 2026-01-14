@@ -197,19 +197,22 @@
     display: inline-block;
     width: 180px;
     vertical-align: top;
+    background-color:rgba(198, 231, 241, 0.3); 
 }
 
 .input {
     width: 300px;
     height: 40px;
     font-size: 20px;
+    background-color:rgba(198, 231, 241, 0.3); 
 }
+
 
 .forms {
     border: 1px solid black;
     padding: 30px;
     border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(198, 231, 241, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -257,6 +260,7 @@
     height: 30px;
     margin-right: 10px;
     cursor: pointer;
+    background-color:rgba(198, 231, 241, 0.3); 
 }
 
 .inputo {
@@ -361,6 +365,7 @@
     border-radius: 15px;
     border: 0.5px solid rgb(0, 0, 0);
     font-size: 20px;
+    background-color:rgba(198, 231, 241, 0.3); 
 }
 .asdasdasdasdasd{
     font-size: 25px;
