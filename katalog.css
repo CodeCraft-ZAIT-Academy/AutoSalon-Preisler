@@ -477,13 +477,14 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     #header {
         height: auto;
         padding: 10px;
     }
 
     .headercontent {
+        display: flex;
         flex-direction: column;
         gap: 10px;
         height: auto;
@@ -534,11 +535,8 @@
         max-width: 100%;
     }
 
-    .filter {
-        height: auto;
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px;
+    .telo {
+        padding-top: 170px;
     }
 
     .bmw {
@@ -555,6 +553,15 @@
     .footext {
         padding-top: 0;
         margin-bottom: 5px;
+    }
+     .auto-card {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -589,7 +596,9 @@
     }
 
     .popup-content {
-        max-width: 95%;
+        max-height: 80%;
+        font-size: 13px;
+
         padding: 10px;
     }
 
@@ -607,7 +616,46 @@
     }
 
     .bmw {
-        width: 80px;
+        width:40px;
+    }
+    .lo{
+        width: 20px;
+        height: 20px;
+    }
+    .filter {
+       position: relative;
+    }
+    .auto-card{
+        margin-top: 10px;
+        z-index: 1px;
+        position: relative;
+        column-gap: 15px;
+        row-gap: 40px;
+       
+    }
+    .headercontent {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+    .telo {
+        padding-top: 50px;
+    }
+    .auto-card {
+        margin-top: 110px;
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .infoska{
+        font-size: 16px;
+    }
+    .popup-prize{
+        font-size: 20px;
     }
     
 }

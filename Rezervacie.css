@@ -402,7 +402,7 @@
     }
 
     .telo {
-        padding-top: 150px;
+        padding-top: 80px;
     }
 
     .carinfogrid {
@@ -458,8 +458,14 @@
         gap: 10px;
     }
 
+    .headercontent {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+    }
+
     .telo {
-        padding-top: 180px;
+        padding-top: 80px;
     }
 
     .png {
@@ -467,7 +473,7 @@
         height: 80px;
     }
     
-    .carinfogrid {
+    .auto-card {
         display: flex;
         gap: 20px;
         padding: 10px;
