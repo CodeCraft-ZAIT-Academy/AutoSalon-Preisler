@@ -37,6 +37,10 @@
     flex: 1;
 
 }
+.Holder {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
 
 .png {
     width: 150px;
@@ -127,7 +131,7 @@
 .jazz {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 22px;
     display: block;
 }
 
