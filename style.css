@@ -125,12 +125,13 @@
 }
 
 .telo {
-    padding-top: 97px;
+    padding-top: 0px;
     height: auto;
     margin: 0px;
 }
 
 .mainpic {
+    margin-top: -70px;
     width: 100%;
     height: auto;
 }
@@ -515,13 +516,14 @@ th {
 
     .uvodtext {
         font-size: 20px;
-        top: 20%;
+        top: 23%;
     }
 
     .uvodbut {
         font-size: 10px;
         width: 150px;
         height: 20px;
+        top: 28%;
     }
 
     .po {
@@ -548,7 +550,8 @@ th {
     .NasaAuta {
         font-size: 14px;
         overflow-x: auto;
-        display: block;margin-left: 50px;
+        display: block;
+        margin-left: 50px;
     }
 
     .NasaAuta th {
@@ -559,6 +562,12 @@ th {
         font-size: 16px;
         text-align: center;
 
+    }
+
+    .mainpic {
+        margin-top: -1350px;
+        width: 100%;
+        height: auto;
     }
 
     .logoauto {
@@ -595,7 +604,5 @@ th {
         font-size: 10px;
     }
 
-    .telo {
-        padding-top: 175px;
-    }
+    .uvodtext {}
 }
