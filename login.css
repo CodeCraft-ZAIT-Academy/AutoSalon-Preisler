@@ -95,7 +95,20 @@
     font-size: 20px;
     margin-bottom: 25px;
 }
+.Holder-log{
+     height: 70px;
+    width: 450px;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 25px;
 
+
+}
+.Holder-log:hover{ 
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
 .Name {
     margin-bottom: 25px;
     color: white;
@@ -136,6 +149,11 @@
     font-size: 33px;
     display: block;
     margin-top: 10px;
+}
+.Odkazik:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ff0000;
 }
 
 .jazz {
