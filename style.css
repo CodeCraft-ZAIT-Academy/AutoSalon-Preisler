@@ -192,6 +192,9 @@
 
 .uvodbut:hover {
     background-color: #02475e;
+     
+    transition: all 0.3s ease;
+     
 }
 
 .jazz {
