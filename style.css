@@ -358,7 +358,7 @@ th {
     align-items: center;
 }
 
-
+/* Tablete responsivite */
 @media (max-width: 830px) {
     .header {
         height: auto;
@@ -472,6 +472,8 @@ th {
         margin: 20px 10px;
     }
 }
+
+/* Mobile responsivity */
 
 @media (max-width: 480px) {
     .Title {

@@ -191,7 +191,6 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 25px;
-    text-align: center;
     vertical-align: middle;
 }
 
@@ -214,14 +213,16 @@
     display: inline-block;
     width: 180px;
     vertical-align: top;
-    background-color: rgba(198, 231, 241, 0.3);
+    color: white;
+    font-weight: bold;
 }
 
 .input {
     width: 300px;
     height: 40px;
     font-size: 20px;
-    background-color: rgba(198, 231, 241, 0.3);
+    background-color: rgba(22, 26, 43, 0.945);
+    color: white;
 }
 
 
@@ -229,7 +230,7 @@
     border: 1px solid black;
     padding: 30px;
     border-radius: 25px;
-    background-color: rgba(198, 231, 241, 0.3);
+    background-color: rgba(26, 32, 53, 0.945);
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -237,8 +238,6 @@
     max-width: 550px;
     margin: 0 auto 150px auto;
     z-index: 100;
-
-
 }
 
 .Nazov {
@@ -270,6 +269,8 @@
 .input {
     border-radius: 15px;
     border: 0.5px solid rgb(0, 0, 0);
+    padding-left: 20px;
+    box-sizing: border-box;
 }
 
 .chekichek {
@@ -278,6 +279,7 @@
     margin-right: 10px;
     cursor: pointer;
     background-color: rgba(198, 231, 241, 0.3);
+    color: white;
 }
 
 .inputo {
@@ -291,6 +293,8 @@
 .Suhlas {
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
 }
 
 .socki {
@@ -335,11 +339,14 @@
 }
 
 .Zmluva {
-
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
+}
 
-
+.Zmluva:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #00c3ff;
 
 }
 
@@ -393,7 +400,10 @@
     border-radius: 15px;
     border: 0.5px solid rgb(0, 0, 0);
     font-size: 20px;
-    background-color: rgba(198, 231, 241, 0.3);
+    background-color: rgba(22, 26, 43, 0.945);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .asdasdasdasdasd {
@@ -412,7 +422,7 @@
     text-decoration: none;
 }
 
-/* Tablet */
+/* Tablete responsivite */
 @media (max-width: 830px) {
     .header {
         height: auto;
@@ -513,7 +523,7 @@
     }
 }
 
-/* Mobil */
+/* Mobile responsivite */
 @media (max-width: 480px) {
     .Title {
         font-size: 16px;

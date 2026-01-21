@@ -388,6 +388,7 @@
     padding: 20px;
 }
 
+/* Tablete responsivite */
 
 @media (max-width: 830px) {
     .header {
@@ -451,6 +452,8 @@
         margin-bottom: 5px;
     }
 }
+
+/* Mobile responsivity */
 
 @media (max-width: 480px) {
     .Title {

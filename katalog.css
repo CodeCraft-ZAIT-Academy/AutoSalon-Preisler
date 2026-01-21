@@ -481,7 +481,7 @@
     margin-top: 10px;
 }
 
-/* Responsive Design */
+/* Tablete responsivite */
 @media (max-width: 830px) {
     #header {
         height: auto;
@@ -569,6 +569,8 @@
         width: 100%;
     }
 }
+
+/* Mobile responsivity */
 
 @media (max-width: 480px) {
     .Title {

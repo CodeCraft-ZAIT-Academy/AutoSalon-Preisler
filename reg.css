@@ -276,7 +276,7 @@
     align-items: center;
 }
 
-/* Responsive Design */
+/* Tablet responsivity */
 @media (max-width: 830px) {
     .header {
         height: auto;
@@ -366,6 +366,8 @@
         margin-bottom: 5px;
     }
 }
+
+/* Mobile responsivity */
 
 @media (max-width: 480px) {
     .Title {
