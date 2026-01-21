@@ -345,6 +345,13 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
+    .Holder-log {
+        width: 100%;
+        height: 60px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: 100% ;
+    }
 
     .Name {
         font-size: 25px;
@@ -429,6 +436,12 @@
         height: 50px;
         font-size: 16px;
         margin-bottom: 15px;
+    }
+    .Holder-log {
+        height: 50px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        width: 100% ;
     }
 
     .Name {
