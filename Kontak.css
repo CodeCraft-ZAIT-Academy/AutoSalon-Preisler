@@ -217,6 +217,11 @@
     font-weight: bold;
     margin-right: 20px;
 }
+.lobby:hover{
+    
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
 
 .input {
     width: 300px;

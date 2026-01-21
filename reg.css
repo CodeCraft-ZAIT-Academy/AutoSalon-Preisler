@@ -222,6 +222,11 @@
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.lobby:hover{
+    
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
 
 .copyright {
     margin-top: 0px;

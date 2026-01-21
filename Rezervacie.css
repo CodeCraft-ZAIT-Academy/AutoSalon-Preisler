@@ -387,6 +387,11 @@
     gap: 30px;
     padding: 20px;
 }
+.lobby:hover{
+    
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
 
 /* Tablete responsivite */
 

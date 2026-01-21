@@ -480,6 +480,11 @@
     text-align: center;
     margin-top: 10px;
 }
+.lobby:hover{
+    
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
 
 /* Tablete responsivite */
 @media (max-width: 830px) {

@@ -162,6 +162,11 @@
     font-size: 22px;
     display: block;
 }
+.lobby:hover{
+    
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
 
 .links {
     font-size: 30px;
