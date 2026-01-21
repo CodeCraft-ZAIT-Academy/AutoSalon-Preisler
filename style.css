@@ -364,6 +364,9 @@ th {
         height: auto;
         padding: 10px;
     }
+    .telo {
+        margin-top: -80px;
+    }
 
     .headercontent {
         flex-direction: column;
@@ -398,13 +401,14 @@ th {
 
     .uvodtext {
         font-size: 25px;
-        top: 30%;
+        top: 28%;
     }
 
     .uvodbut {
         font-size: 10px;
         width: 250px;
         height: 50px;
+        top: 35%;
     }
 
     .jazz {
@@ -506,6 +510,7 @@ th {
         flex-direction: column;
         gap: 10px;
         height: auto;
+        
     }
 
     .Login-link,
@@ -513,18 +518,19 @@ th {
         font-size: 16px;
         width: 95px;
     }
+   
 
 
     .uvodtext {
         font-size: 20px;
-        top: 23%;
+        top: 30%;
     }
 
     .uvodbut {
         font-size: 10px;
         width: 150px;
         height: 20px;
-        top: 28%;
+        top: 37%;
     }
 
     .po {
@@ -604,6 +610,8 @@ th {
     .opyright {
         font-size: 10px;
     }
+    .telo {
+        margin-top: 14px;
 
-    .uvodtext {}
+   
 }
